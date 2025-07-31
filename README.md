@@ -6,11 +6,12 @@ It listens on the port specified by the PORT environment variable and responds t
 
 
 ##  What It Does
-•   Listens on a configurable TCP port
-•   Returns HTTP 200 OK with body:
+
+* Listens on a configurable TCP port
+* Returns HTTP 200 OK with body:
         `{"status":"healthy"}`
 
-•   Designed for minimal resource usage and fast startup
+* Designed for minimal resource usage and fast startup
 
 
 ## Usage
@@ -43,10 +44,10 @@ docker run -e PORT=8080 -p 8080:8080 healthcheck
 ```
 
 
-## Example Use Case
+## Use Cases
 
-•   Kubernetes livenessProbe or readinessProbe
-•   Docker Compose health checks
-•   Lightweight health status for any containerized service
+* Kubernetes livenessProbe or readinessProbe
+* Docker Compose health checks
+* Lightweight health status for any containerized service
 
 
